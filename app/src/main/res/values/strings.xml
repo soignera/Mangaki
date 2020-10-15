@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mangaki</string>
+    <string name="dislike">Dislike</string>
+    <string name="list">Mangaki app</string>
+    <string name="sort_movies">Sort</string>
+    <string name="sort_popularity">Get id</string>
+    <string name="sort_top_rated">Top rated</string>
+    <string name="movie_overview_label">About the movie</string>
+    <string name="trailer">Media</string>
+    <string name="sort_by_favorites">Recommendations</string>
+</resources>

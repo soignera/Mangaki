@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="211dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/margin"
+    android:padding="@dimen/padding"
+    android:background="@color/colorAccent"
+    tools:context=".AnimeAdapter">
+    
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_shape"/>
+    
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/padding">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="@dimen/nome"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="90dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="@dimen/margin_top"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="172dp"
+        android:layout_margin="10dp"
+
+
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/favorite_button"
+            android:layout_width="41dp"
+            android:layout_height="44dp"
+            android:src="@drawable/sparkingheart"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff" />
+
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/like"
+            android:layout_width="41dp"
+            android:layout_height="44dp"
+            android:src="@drawable/upemoji"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff" />
+
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/dislike"
+            android:layout_width="41dp"
+            android:layout_height="44dp"
+            android:src="@drawable/downemoji"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff" />
+        <ImageButton
+            android:id="@+id/neutral_button"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:src="@drawable/rareemoji"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
